@@ -45,6 +45,69 @@
             </div>
         </header>
 
+        <section id="bookingSec1">
+            <div id="bookingBanner">
+                <img src="img/bookingbanner.jpg" src="booking banner image">
+            </div>
+            <p id="bookingBannerText">
+                    Go Explore BC With Us<br><br> 
+                    <span id="bookingBannerTitle">The hidden gem experience is getting closer!</span><br><br>  
+                    Once the booking form is completed, we will take up to 48 hours to review the form.<br>  
+                    We do all of the research depending on how the form was filled out<br> and provide you with a temporary itinerary. 
+                    Since nothing goes according to plan, <br>this will give us a good idea of what to plan during your travel <br>to your selected destination within British Columbia.<br> 
+                    Don't forget to sign up for our newsletter to discover more places to explore! 
+            </p>
+        </section>
+
+        <section id="bookingSec2">
+            <div id="bookingFormTitle">Save Your Spot Today!</div>
+            <form method="post" action="mailto=soobinhwang317@gmail.com" enctype="text/plain" id="bookingForm">
+                <label for="firstname"> First Name:</label><br/>
+                <input type="text" name="firstname" id="firstname" size="30" placeholder="Please provide your first name"><br>
+                <label for="last"> Last Name:</label><br/>
+                <input type="text" name="lastname" id="lastname" size="30" placeholder="Please provide your last name"><br>
+                <label for="email"> Email:</label><br/>
+                <input type="email" name="email" id="email" size="30" placeholder="Please provide your email address"><br><br>
+
+                <label for="areacode"> Phone Number:</label><br/>
+                <input type="number" name="areacode" id="areacode" size="3" maxlength="3" min="100" max="999">-
+                <input type="tel" name="phone" id="phone" size="7" maxlength="7" max="9999999">–
+                <input type="tel" name="phone" id="phone" size="7" maxlength="7" max="9999999"><br>
+
+                <label for="how"><br>Pick a tour:</label><br/>
+                <select name="how" id="how">
+                    <option> Choose an option </option>
+                    <option>Taste the World Tour</option>
+                    <option>Sea to Sky Tour</option>
+                    <option> Mountains and Ocean Tour</option>
+                    <option>Sunset Tour</option>
+                    <option>Escape to the Island Tour</option>
+                    <option>Pairing with Wine Tour</option>
+                </select>
+
+                <label for="groupNumber"> Number of People:</label><br/>
+                <input type="text" name="groupNumber" id="groupNumber" size="50" placeholder="Please provide card holder's name"><br>
+                
+                <label for="cardholder"> Cardholder Name:</label><br/>
+                <input type="text" name="cardholder" id="cardholder" size="50" placeholder="Please provide card holder's name"><br>
+                    
+                <label for="areacode"> Credit Card Number:</label><br/>
+                <input type="number" name="areacode" id="areacode" size="3" maxlength="3" min="100" max="999">-
+                <input type="tel" name="phone" id="phone" size="7" maxlength="7" max="9999999">–
+                <input type="tel" name="phone" id="phone" size="7" maxlength="7" max="9999999">–
+                <input type="tel" name="phone" id="phone" size="7" maxlength="7" max="9999999"><br><br/>
+
+                <label for="expiryDate">Credit Card Expiry Date/Year</label><br>
+                <input type="month" name="expiryDate" id="expiryDate"><br><br>
+
+                <label for="cvc"> CVC:</label><br/>
+                <input type="text" name="cvc" id="cvc" size="50" placeholder="Please provide the CVC number"><br>
+                    
+            </form>
+
+            <div id="button">SUBMIT</div>
+        </section>
+        <!-- section1 end -->
 
 
         <footer>Copyright © 2021 HiddenGemsOfBC. All rights reserved</footer>

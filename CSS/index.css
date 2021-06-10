@@ -7,6 +7,7 @@ img{width: 100%;height: 100%;}
     width: 100%;
     height: auto;
     font-family: 'Poppins', sans-serif;
+    font-weight: 200;
     /* background-color: darkblue; */
 }
 
@@ -14,7 +15,11 @@ header{
     width:100%;
     height: 70px;
     float: left;
-    /* background-color: floralwhite; */
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(255,255,255,0.8);
+    /* opacity: 0.7; */
+    font-weight: 400;
 }
 
 .logo{
@@ -29,9 +34,10 @@ header ul{
     width: 660px;
     height: 100%;
     float: left;
-    margin-left: 530px;
+    /* margin-left: 470px; */
+    margin-left: 27%;
     line-height: 70px;
-    background-color: sienna;
+    /* background-color: sienna; */
 }
 
 header ul li{
@@ -272,7 +278,6 @@ section{
     margin-right: 0;
 }
 
-
 /* Home Page End */
 
 /* Gem Leaders Page Start */
@@ -439,9 +444,6 @@ h3{
     margin-right :0;
 }
 
-
-
-
 /* TourGuide Page End */
 
 /* Contact Page Start */
@@ -531,6 +533,78 @@ ul.no-bullets {
 
 /* Booking page start */
 
+#bookingSec1{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    background-color: darkblue;
+}
+
+#bookingBanner,#bookingBannerText{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#bookingBanner{
+    width: 100%;
+    height: 100%;
+}
+
+#bookingBannerText{
+    width: 40%;
+    height: 60%;
+    margin-top: 150px;
+    margin-left: 90px;
+    /* background-color: darkcyan; */
+    color: white;
+    font-size: 16px;
+}
+
+#bookingBannerTitle{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#bookingSec2{
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    background-color: #D7E2C3;
+}
+
+#bookingFormTitle{
+    width: 320px;
+    height: 30px;
+    margin: 100px auto 50px auto;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;
+    /* background-color: darkblue; */
+}
+
+#bookingForm{
+    width: 1200px;
+    height: 60%;
+    margin: 30px auto 30px auto;
+    column-count: 2;
+    column-width: 300px;
+    column-gap: 80px;
+    column-rule: 1px solid rgb(214, 214, 214);
+    background-color: #EEEFF1;
+}
+
+#button{
+    width: 110px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
 
 
 
