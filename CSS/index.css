@@ -26,12 +26,12 @@ header{
 }
 
 header ul{
-    width: 570px;
+    width: 660px;
     height: 100%;
     float: left;
     margin-left: 530px;
     line-height: 70px;
-    /* background-color: sienna; */
+    background-color: sienna;
 }
 
 header ul li{
