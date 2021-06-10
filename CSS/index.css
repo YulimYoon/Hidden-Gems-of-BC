@@ -85,7 +85,7 @@ section{
 
 #sec1GalleryContainer{
     width: 400%;
-    height: 100%;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
@@ -93,7 +93,7 @@ section{
 
 .sec1GalleryImg{
     width: 25%;
-    height: 100%;
+    height: auto;
     /* height: 745px; */
     float: left;
 }
@@ -385,6 +385,11 @@ h3{
 /* FAQ Page End */
 
 /* TourGuide Page Start */
+#tourBanner{
+    width: 100%;
+    height: auto;
+}
+
 #tourGuideSec2{
     width: 100%;
     height: 150vh;
@@ -523,6 +528,13 @@ ul.no-bullets {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+/* Booking page start */
+
+
+
+
+/* Booking page end */
 
 
 
