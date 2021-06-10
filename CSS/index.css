@@ -339,6 +339,45 @@ h3{
     font-weight: bold;
   }
 
+.wrapper {
+  margin: 0 auto;
+}
+  #gemleadersSec1{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    background-color: darkblue;
+    margin-bottom: 70px;
+  }
+
+  #gemleadersBanner,#gemleadersBannerText{
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+
+  #gemleadersBanner{
+      width: 100%;
+      height: 100%;
+      margin-bottom: 100px;
+  }
+
+  #gemleadersBannerText{
+      width: 40%;
+      height: 60%;
+      margin-top: 150px;
+      margin-left: 90px;
+      /* background-color: darkcyan; */
+      color: black;
+      font-size: 16px;
+  }
+
+  #gemleadersBannerTitle{
+      font-size: 30px;
+      font-weight: 400;
+  }
 /* Gem Leaders Page End */
 
 /* FAQ Page */
@@ -351,40 +390,77 @@ h3{
 }
 
 .accordion {
-    background-color: cornsilk;
+    background-color: #EFFFEA;
     color: #444;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    margin: 1px;
-    border: solid grey 0.5px;
+    margin: 5px;
+    border: outset #EBF6D7 5px;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 17px;
     transition: 0.4s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .active, .question:hover {
-    background-color: bisque; 
+    background-color: yellowgreen; 
 }
 
 .panel {
-    background-color: ghostwhite;
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    margin: 15px;
+    margin: 40px;
+    font-size: 1.1em;
 }
 
 .faq_container {
-    background-color: ghostwhite;
     width: 60%;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 .faq_title {
     text-align: center;
     margin: 40px;
+}
+#faqSec1{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    background-color: darkblue;
+    margin-bottom: 70px;
+}
+
+#faqBanner,#faqBannerText{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#faqBanner{
+    width: 100%;
+    height: 100%;
+}
+
+#faqBannerText{
+    width: 40%;
+    height: 60%;
+    margin-top: 150px;
+    margin-left: 90px;
+    /* background-color: darkcyan; */
+    color: white;
+    font-size: 16px;
+}
+
+#faqBannerTitle{
+    font-size: 30px;
+    font-weight: 400;
 }
 
 /* FAQ Page End */
@@ -460,7 +536,7 @@ input[type=text], select, textarea {
 
 
 input[type=submit] {
-    background-color: palevioletred;
+    background-color: #1A5D21;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -468,23 +544,24 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: darkred;
+    background-color: darkseagreen;
 }
 
   /* Style the container/contact section */
 .container {
     border-radius: 5px;
-    background-color: seashell;
-    padding: 10px;
-    max-width: 1100px;
+    background-color: #EBF6D7;
+    padding: 20px;
+    max-width: 1000px;
     margin: 0px auto;
+    margin-bottom: 100px;
 }
 
   /* Create two columns that float next to eachother */
 .column {
-    float: left;
     width: 50%;
     margin-top: 6px;
+    margin: auto;
     padding: 20px;
 }
 
@@ -508,6 +585,42 @@ ul.no-bullets {
     margin: 35px;
     padding: 0;
 }
+#contactSec1{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    background-color: darkblue;
+    margin-bottom: 60px;
+}
+
+#contactBanner,#contactBannerText{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#contactBanner{
+    width: 100%;
+    height: 100%;
+}
+
+#contactBannerText{
+    width: 40%;
+    height: 60%;
+    margin-top: 150px;
+    margin-left: 90px;
+    /* background-color: darkcyan; */
+    color: white;
+    font-size: 16px;
+}
+
+#contactBannerTitle{
+    font-size: 30px;
+    font-weight: 400;
+}
+
 
 /* Contact Page End */
 
@@ -529,6 +642,49 @@ ul.no-bullets {
     text-align: center;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.about_container2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#aboutSec1{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    background-color: darkblue;
+    margin-bottom: 70px;
+}
+
+#aboutBanner,#aboutBannerText{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#aboutBanner{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+#aboutBannerText{
+    width: 40%;
+    height: 60%;
+    margin-top: 150px;
+    margin-left: 90px;
+    /* background-color: darkcyan; */
+    color: white;
+    font-size: 16px;
+}
+
+#aboutBannerTitle{
+    font-size: 30px;
+    font-weight: 400;
 }
 
 /* Booking page start */
