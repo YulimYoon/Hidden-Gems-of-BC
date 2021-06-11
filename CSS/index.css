@@ -525,7 +525,7 @@ h3{
 /* Contact Page Start */
 
 input[type=text], select, textarea {
-    width: 100%;
+    width: 500px;
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
@@ -726,7 +726,7 @@ ul.no-bullets {
 
 #bookingSec2{
     width: 100%;
-    height: 90vh;
+    height: 88vh;
     overflow: hidden;
     background-color: #D7E2C3;
 }
@@ -743,24 +743,33 @@ ul.no-bullets {
 
 #bookingForm{
     width: 1200px;
-    height: 60%;
-    margin: 30px auto 30px auto;
+    height: 50%;
+    margin: 30px auto 50px auto;
     column-count: 2;
     column-width: 300px;
     column-gap: 80px;
     column-rule: 1px solid rgb(214, 214, 214);
     background-color: #EEEFF1;
+    padding: 20px;
 }
 
 #button{
     width: 110px;
     height: 40px;
-    border: 1px solid black;
+    border: 1px solid #252525;
     margin: 0 auto;
     text-align: center;
     line-height: 40px;
     letter-spacing: 1px;
+    transition-duration: 0.2s;
 }
+
+#button:hover{
+    background-color: #EEEFF1;
+    color: #1d321a;
+    border-color: #EEEFF1;
+}
+
 
 
 
