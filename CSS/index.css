@@ -375,6 +375,79 @@ section{
 
 /* Gem Leaders Page Start */
 
+  #themeAndy {
+    float:left;
+    color: #41AFC5;
+  }
+
+  #themeJessica {
+    color: #41AFC5;
+    float: left;
+  }
+
+  #gemleadersJessicaBtn{
+    width: 200px;
+    height: 40px;
+    color: whitesmoke;
+    background: #71C0D0;
+    font-weight: 300;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    margin-top: 105px;
+    transition-duration: 0.2s;
+    margin-left: 270px;
+  }
+
+  
+#gemleadersJessicaBtn:hover {
+    background-color: whitesmoke;
+}
+
+#gemleadersJessicaBtn:hover a{
+    color: #2a4159;
+}
+
+#gemleadersAndyBtn{
+    width: 200px;
+    height: 40px;
+    color: whitesmoke;
+    background: #71C0D0;
+    font-weight: 300;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    margin-top: 110px;
+    transition-duration: 0.2s;
+    float: left;
+    margin-left: 50px;
+}
+
+#gemleadersLinaBtn{
+    width: 200px;
+    height: 40px;
+    color: whitesmoke;
+    background: #71C0D0;
+    font-weight: 300;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    margin-top: 105px;
+    transition-duration: 0.2s;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 120px;
+}
+
+  
+#gemleadersLinaBtn:hover {
+    background-color: whitesmoke;
+}
+
+#gemleadersLinaBtn:hover a{
+    color: #2a4159;
+}
+
 h1{
     font-size: 30px;
 }
@@ -387,11 +460,11 @@ h1{
 }
 
 h3{
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .gemleadersP, h4{
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .leftimage,.rightimage{
@@ -432,6 +505,8 @@ h3{
     font-weight: bold;
   }
 
+
+
 .wrapper {
   margin: 0 auto;
 }
@@ -442,7 +517,6 @@ h3{
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
     /* background-color: darkblue; */
-    margin-bottom: 70px;
   }
 
   #gemleadersBanner,#gemleadersBannerText{
@@ -527,7 +601,7 @@ h3{
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
     /* background-color: darkblue; */
-    margin-bottom: 70px;
+    margin-bottom: 5px;
 }
 
 #faqBanner{
@@ -685,7 +759,6 @@ ul.no-bullets {
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
     /* background-color: darkblue; */
-    margin-bottom: 60px;
 }
 
 #contactBanner{
@@ -739,7 +812,7 @@ ul.no-bullets {
     position: relative;
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
-    margin-bottom: 70px;
+    margin-bottom: 10px;
 }
 
 #aboutBanner{
@@ -782,7 +855,7 @@ ul.no-bullets {
 
 #bookingBanner{
     width: 100%;
-    height: auto;
+    height: 450px;
 }
 
 #bookingBannerText{
