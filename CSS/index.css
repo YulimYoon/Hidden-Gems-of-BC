@@ -104,16 +104,18 @@ section{
 }
 
 #sec1Title{
+    line-height: 65px;
     font-size: 50px;
     font-weight: 600;
     letter-spacing: 1px;
+    margin-bottom: 10px;
 }
 
 #sec1Btn{
     width: 130px;
     height: 40px;
     background: whitesmoke;
-    color: #444;
+    color: #2a4159;
     font-weight: 300;
     text-align: center;
     line-height: 40px;
@@ -123,7 +125,7 @@ section{
 }
 
 #sec1Btn:hover{
-    background-color: #3a3a3a;
+    background-color: #2a4159;
 }
 
 #sec1Btn:hover a{

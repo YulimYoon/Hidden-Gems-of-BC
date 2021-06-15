@@ -6,6 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hidden Gems Of BC</title>
     <link href="CSS/index.css" rel="stylesheet">
+    <script src="jquery-3.4.1.min 2.js"></script>
+    <script>
+
+        var ww = $(window).width();
+
+        $(document).ready(function(){
+            $('#sec1').click(function(){
+
+                $('#sec1GalleryContainer').stop().animate({
+                    left:-ww
+                },function(){
+                    $('#sec1GalleryContainer').css({
+                        left:0
+                    }).find('.sec1GalleryImg').first().appendTo('#sec1GalleryContainer');
+                })
+
+            });
+
+            setInterval(function(){
+                $('#sec1').trigger('click');
+            },2400);
+
+        });
+
+    </script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
