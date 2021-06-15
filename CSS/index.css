@@ -92,6 +92,44 @@ section{
     /* background-color: darkseagreen; */
 }
 
+#sec1TitleContainer{
+    color: whitesmoke;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 240px;
+    left: 100px;
+    z-index: 998;
+    /* background-color: darkblue; */
+}
+
+#sec1Title{
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#sec1Btn{
+    width: 130px;
+    height: 40px;
+    background: whitesmoke;
+    color: #444;
+    font-weight: 300;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition-duration: 0.2s;
+}
+
+#sec1Btn:hover{
+    background-color: #3a3a3a;
+}
+
+#sec1Btn:hover a{
+    color: whitesmoke;
+}
+
 #sec1GalleryContainer{
     width: 400%;
     height: auto;
@@ -806,9 +844,6 @@ ul.no-bullets {
     color: whitesmoke;
     cursor: pointer;
 }
-
-
-
 
 /* Booking page end */
 
