@@ -360,11 +360,11 @@ h3{
 }
   #gemleadersSec1{
     width: 100%;
-    height: 500px;
+    height: 429px;
     position: relative;
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
-    background-color: darkblue;
+    /* background-color: darkblue; */
     margin-bottom: 70px;
   }
 
@@ -376,7 +376,7 @@ h3{
 
   #gemleadersBanner{
       width: 100%;
-      height: 100%;
+      height: auto;
       margin-bottom: 100px;
   }
 
@@ -445,15 +445,15 @@ h3{
 }
 #faqSec1{
     width: 100%;
-    height: 500px;
+    height: 429px;
     position: relative;
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
-    background-color: darkblue;
+    /* background-color: darkblue; */
     margin-bottom: 70px;
 }
 
-#faqBanner,#faqBannerText{
+#faqBanner{
     position: absolute;
     top: 0;
     left: 0;
@@ -461,18 +461,18 @@ h3{
 
 #faqBanner{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
-#faqBannerText{
+/* #faqBannerText{
     width: 40%;
     height: 60%;
     margin-top: 150px;
     margin-left: 90px;
-    /* background-color: darkcyan; */
+    background-color: darkcyan;
     color: white;
     font-size: 16px;
-}
+} */
 
 #faqBannerTitle{
     font-size: 30px;
@@ -603,15 +603,15 @@ ul.no-bullets {
 }
 #contactSec1{
     width: 100%;
-    height: 500px;
+    height: 429px;
     position: relative;
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
-    background-color: darkblue;
+    /* background-color: darkblue; */
     margin-bottom: 60px;
 }
 
-#contactBanner,#contactBannerText{
+#contactBanner{
     position: absolute;
     top: 0;
     left: 0;
@@ -619,17 +619,7 @@ ul.no-bullets {
 
 #contactBanner{
     width: 100%;
-    height: 100%;
-}
-
-#contactBannerText{
-    width: 40%;
-    height: 60%;
-    margin-top: 150px;
-    margin-left: 90px;
-    /* background-color: darkcyan; */
-    color: white;
-    font-size: 16px;
+    height: auto;
 }
 
 #contactBannerTitle{
@@ -668,17 +658,16 @@ ul.no-bullets {
 
 #aboutSec1{
     width: 100%;
-    height: 500px;
+    height: 429px;
     position: relative;
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
-    background-color: darkblue;
     margin-bottom: 70px;
 }
 
 #aboutBanner{
     width: 100%;
-    height: 100%;
+    height: auto;
     margin-bottom: 100px;
 }
 
@@ -705,7 +694,7 @@ ul.no-bullets {
     position: relative;
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
-    background-color: darkblue;
+    background-color: #D7E2C3;
 }
 
 #bookingBanner,#bookingBannerText{
@@ -716,11 +705,11 @@ ul.no-bullets {
 
 #bookingBanner{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 #bookingBannerText{
-    width: 40%;
+    width: 70%;
     height: 60%;
     margin-top: 150px;
     margin-left: 90px;
