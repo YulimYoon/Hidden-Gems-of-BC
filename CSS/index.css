@@ -8,6 +8,7 @@ img{width: 100%;height: 100%;}
     height: auto;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
+    overflow: hidden;
     /* background-color: darkblue; */
 }
 
@@ -86,7 +87,7 @@ section{
     position: relative;
     height:75vh;
     overflow: hidden;
-    background-color: darkseagreen;
+    /* background-color: darkseagreen; */
 }
 
 #sec1GalleryContainer{
@@ -112,7 +113,7 @@ section{
 }
 
 .secContainer{
-    width: 80vw;
+    width: 70vw;
     height: 93%;
     margin: 0 auto;
     overflow: hidden;
@@ -138,21 +139,25 @@ section{
     /* background-color: blanchedalmond; */
 }
 
+#sec2IntroTitleContainer,#sec2ImgContainer{
+    display: flex;
+    /* align-items: center; */
+}
+
 #sec2IntroTitleContainer{
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
+    width: 90%;
+    margin: 0 auto;
+    height: 75px;
+    line-height: 75px;
+    justify-content: center;
     /* background-color: darkblue; */
-    float: left;
 }
 
 .sec2IntroTitle{
-    width: 150px;
+    width: 320px;
     height: 100%;
-    font-size: 22px;
+    font-size: 1vw;
     text-align: center;
-    float: left;
-    margin-left: 150px;
     /* background-color: azure; */
 }
 
@@ -164,18 +169,22 @@ section{
     margin-left: 330px;
 }
 
+#sec2ImgContainer{
+    width: 100%;
+    height: 540px;
+    justify-content:space-between;
+    /* background-color: lightcoral; */
+}
+
 .intro{
     width: 320px;
     height: 482px;
     /* background-color: darkorange; */
-    margin-right: 40px;
-    margin-left: 70px;
-    float: left;
 }
 
-.intro2,.intro3{
+/* .intro2,.intro3{
     margin-left: 120px;
-}
+} */
 
 .intro p{
     width: 100%;
@@ -219,19 +228,26 @@ section{
 
 #sec3TextTitle{
     color: #252525;
-    font-size: 30px;
-    letter-spacing: 1px;
+    font-size: 27px;
+    letter-spacing: 2px;
     font-family: 'Acme', sans-serif;
 }
 
 #sec3BlogBtn{
-    width: 130px;
+    width: 120px;
     height: 45px;
     border: 1px solid #252525;
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 45px;
     margin: 20px auto 0 auto;
+    transition-duration: 0.2s;
+}
+
+#sec3BlogBtn:hover{
+    border: 1px solid #D7E2C3;
+    background-color: whitesmoke;
+    cursor:pointer;
 }
 
 #sec4{
