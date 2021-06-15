@@ -396,7 +396,7 @@ section{
     border-radius: 20px;
     margin-top: 105px;
     transition-duration: 0.2s;
-    margin-left: 270px;
+    /* margin-left: 270px; */
   }
 
   
@@ -420,7 +420,7 @@ section{
     margin-top: 110px;
     transition-duration: 0.2s;
     float: left;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 #gemleadersLinaBtn{
@@ -435,7 +435,7 @@ section{
     margin-top: 105px;
     transition-duration: 0.2s;
     float: left;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-bottom: 120px;
 }
 
@@ -473,8 +473,8 @@ h3{
 }
 
 .leftimage{
-    margin-bottom: 20px;
-    margin-right: 40px;
+    /* margin-bottom: 20px;
+    margin-right: 40px; */
     display: inline-block;
 }
   
@@ -490,9 +490,12 @@ h3{
 }
   
   .profile {
-    padding: 40px;
-    margin: 40px;
-    margin-bottom: 0px;
+    width: 65%;
+    height: 550px;
+    /* padding: 40px;
+    margin: 40px; */
+    margin: 0 auto;
+    /* background-color: darkblue; */
   }
   .blue-line {
     width: 100%;
