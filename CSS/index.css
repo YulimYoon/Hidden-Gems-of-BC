@@ -110,13 +110,13 @@ section{
 /* section 1 end */
 
 #sec2{
-    height: 90vh;
+    height: 93vh;
     /* background-color: darksalmon; */
 }
 
 .secContainer{
     width: 70vw;
-    height: 93%;
+    height: 95%;
     margin: 0 auto;
     overflow: hidden;
     /* background-color: lightgreen; */
@@ -129,7 +129,7 @@ section{
     font-weight: 600;
     text-align: center;
     letter-spacing: 1px;
-    margin: 120px auto 50px auto;
+    margin: 100px auto 50px auto;
     /* background-color: deepskyblue; */
 }
 
@@ -173,7 +173,7 @@ section{
 
 #sec2ImgContainer{
     width: 100%;
-    height: 540px;
+    height: 560px;
     justify-content:space-between;
     /* background-color: lightcoral; */
 }
@@ -184,9 +184,28 @@ section{
     /* background-color: darkorange; */
 }
 
-/* .intro2,.intro3{
-    margin-left: 120px;
-} */
+.introBtn{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 20px auto 0 auto;
+    border: 1px solid #2a4159;
+    font-weight: 300;
+    font-size: 15px;
+    transition-duration: 0.2s;
+}
+
+
+.introBtn:hover{
+    cursor: pointer;
+    background-color: #2a4159;
+}
+
+.introBtn:hover a{
+    color: whitesmoke;
+}
+
 
 .intro p{
     width: 100%;
@@ -246,9 +265,14 @@ section{
 }
 
 #sec3BlogBtn:hover{
-    border: 1px solid #D7E2C3;
-    background-color: whitesmoke;
+    background-color: #2a4159;
+    /* color: #D7E2C3; */
     cursor:pointer;
+}
+
+
+#sec3BlogBtn:hover a{
+    color: whitesmoke;
 }
 
 #sec4{
@@ -778,9 +802,9 @@ ul.no-bullets {
 }
 
 #button:hover{
-    background-color: #EEEFF1;
-    color: #1d321a;
-    border-color: #EEEFF1;
+    background-color: #2a4159;
+    color: whitesmoke;
+    cursor: pointer;
 }
 
 
