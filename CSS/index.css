@@ -406,12 +406,12 @@ section{
   }
 
   .profileHeight2{
-      height: 550px;
+      height: 600px;
   }
 
 .profileTextContainer{
     width: 47%;
-    height: 95%;
+    height: 100%;
     float: left;
     /* background-color: lightgreen; */
 }
@@ -490,7 +490,7 @@ h3{
     width: 100%;
     height: 5px;
     background: #71C0D0;
-    margin:40px auto;
+    margin:60px auto;
   }
   .book-now {
     color: #71C0D0; 
@@ -879,7 +879,7 @@ ul.no-bullets {
 
 #bookingForm{
     width: 1200px;
-    height: 55%;
+    height: 52%;
     margin: 30px auto 50px auto;
     column-count: 2;
     column-width: 300px;
