@@ -402,6 +402,7 @@ section{
   
 #gemleadersJessicaBtn:hover {
     background-color: whitesmoke;
+    border: 1px solid rgba(42, 65, 89, 0.5)
 }
 
 #gemleadersJessicaBtn:hover a{
@@ -423,6 +424,15 @@ section{
     /* margin-left: 50px; */
 }
 
+#gemleadersAndyBtn:hover {
+    background-color: whitesmoke;
+    border: 1px solid rgba(42, 65, 89, 0.5);
+}
+
+#gemleadersAndyBtn:hover a{
+    color: #2a4159;
+}
+
 #gemleadersLinaBtn{
     width: 200px;
     height: 40px;
@@ -442,7 +452,7 @@ section{
   
 #gemleadersLinaBtn:hover {
     background-color: whitesmoke;
-}
+    border: 1px solid rgba(42, 65, 89, 0.5)}
 
 #gemleadersLinaBtn:hover a{
     color: #2a4159;
