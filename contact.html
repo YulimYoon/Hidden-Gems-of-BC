@@ -10,7 +10,7 @@
   </style>
   <title>Contact</title>
 </head>
-
+<body>
 <div class="wrapper">
   <header>
     <div class="logo">
@@ -49,60 +49,63 @@
 </header>
   <!-- header end -->
 
-<body>
+
  <section id="contactSec1">
       <div id="contactBanner">
           <img src="img/Banner_Contact.jpg" alt= "Contact Banner">
       </div>
   </section>
-  <div style="text-align:center">
-    <h1>Contact Info</h1> 
-    <ul class="no-bullets">
-      <li>Office Address: 555 Seymour St, Vancouver, BC V6B 3H6</li><br>
-      <li>Phone Number: +1 (778) 123 456 </li><br>
-      <li>Email: hiddengemBC@hiddengembc.com</li> <br>
-    </ul>
-  </div>
-  
-  
-    <div class="container">
-      <div style="text-align:center">
-        <h2>Contact Us</h2>
-        <p>Fields marked with an <span style="color:red;">*</span> are required</p>
+    
+  <section id="contactSec2">  
+    <div id="contactSec2Title" style="text-align:center">
+      <h1>Contact Info</h1> 
+      <div id="contactSec2SubTitle">
+        <span class="strong">Phone Number</span>&nbsp;&nbsp; +1 (778) 123 456<br>
+        <span class="strong">Email</span>&nbsp;&nbsp; hiddengemBC@hiddengembc.com<br>
+        <span class="strong">Office Address</span>&nbsp;&nbsp;555 Seymour St, Vancouver, BC V6B 3H6<br>
       </div>
-      <div class="row">
-        <div class="column">
-          <form action="/action_page.php"
-                style='width: 500px'>
-            <label for="fname">First Name <span style="color:red;">*</span></label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            <label for="lname">Last Name <span style="color:red;">*</span></label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            <label for="email">Email <span style="color:red;">*</span></label>
-            <input type="text" id="email" name="email" placeholder="Your email..">
-            <label for="phone">Phone Number</label>
-            <input type="text" id="phone" name="phone" placeholder="Your phone number..">
-            <label for="subject">Subject <span style="color:red;">*</span></label>
-              <select id="subject" name="subject">
-                <option value="choose">Choose a subject</option>
-                <option value="booking">Booking</option>
-                <option value="tour">Tour &amp; Guide</option>
-                <option value="refund">Changes &amp; Cancellations &amp; Refunds</option>
-                <option value="covid19">Covid-19</option>
-                <option value="feedback">Feedback</option>
-                <option value="others">Others</option>
-              </select>
-            <label for="message">Message <span style="color:red;">*</span></label>
-            <textarea id="message" name="message" placeholder="Type your message here.." style="height:170px"></textarea>
-            
-            <div style="text-align: center">
-              <input type="submit" value="Submit">
-            </div>
-            
-          </form>
+    </div>
+    
+    
+      <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>Fields marked with an <span style="color:red;">*</span> are required</p>
         </div>
-      </div>
-  </div>
+        <div class="row">
+          <div class="column">
+            <form action="/action_page.php"
+                  style='width: 500px'>
+              <label for="fname">First Name <span style="color:red;">*</span></label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name <span style="color:red;">*</span></label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="email">Email <span style="color:red;">*</span></label>
+              <input type="text" id="email" name="email" placeholder="Your email..">
+              <label for="phone">Phone Number</label>
+              <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+              <label for="subject">Subject <span style="color:red;">*</span></label>
+                <select id="subject" name="subject">
+                  <option value="choose">Choose a subject</option>
+                  <option value="booking">Booking</option>
+                  <option value="tour">Tour &amp; Guide</option>
+                  <option value="refund">Changes &amp; Cancellations &amp; Refunds</option>
+                  <option value="covid19">Covid-19</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="others">Others</option>
+                </select>
+              <label for="message">Message <span style="color:red;">*</span></label>
+              <textarea id="message" name="message" placeholder="Type your message here.." style="height:170px"></textarea>
+              
+              <div style="text-align: center">
+                <input id="faqBtn" type="submit" value="SUBMIT">
+              </div>
+              
+            </form>
+          </div>
+        </div>
+    </div>
+  </section>
 
   <footer>Copyright © 2021 HiddenGemsOfBC. All rights reserved</footer>
 </div>
