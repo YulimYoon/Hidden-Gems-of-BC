@@ -40,7 +40,7 @@ header ul{
     /* margin-left: 470px; */
     margin-left: 27%;
     line-height: 70px;
-    background-color: sienna;
+    /* background-color: sienna; */
 }
 
 header ul li{
@@ -48,7 +48,7 @@ header ul li{
     height: 100%;
     float: left;
     margin-left: 30px;
-    background-color: forestgreen;
+    /* background-color: forestgreen; */
 }
 
 header ul li:first-child{
@@ -461,7 +461,7 @@ section{
     float: left;
   }
 
-  .gemleadersBtn a{
+  .gemleadersBtn a, .tourBtn a{
       color: white;
   }
 
@@ -471,7 +471,17 @@ section{
     cursor: pointer;
 }
 
+.tourBtn:hover{
+    background-color: white;
+    border: 1px solid rgba(42, 65, 89, 0.5);
+    cursor: pointer;
+}
+
 .gemleadersBtn:hover a{
+    color: #2a4159;
+}
+
+.tourBtn:hover a{
     color: #2a4159;
 }
 
@@ -634,7 +644,7 @@ h3{
 
 #tourGuideSec2{
     width: 100%;
-    height: 150vh;
+    height: 160vh;
     /* background-color: lightpink; */
 }
 
@@ -656,7 +666,7 @@ h3{
 
 #tourGuideContainer{
     width: 1300px;
-    height: 1050px;
+    height: 1150px;
     margin: 0 auto;
     color: white;
     font-weight: 400;
@@ -664,25 +674,37 @@ h3{
     /* background-color: darkblue; */
 }
 
+
 .tourGuideWrap{
     width: 1300px;
-    height: 450px;
+    height: 530px;
+    /* height: 650px; */
     float: left;
     position: relative;
-    /* background-color: yellow; */
+    /* background-color: lightcoral; */
 }
 
-.tourGuideWrap:first-child{
-    margin-bottom: 50px;
-}
-
-.tourGuideItem{
+.tourGuideItemWrap{
+    position: relative;
     width: 410px;
     height: 100%;
     float: left;
     margin-right: 35px;
+    /* background-color: #3a3a3a; */
+}
+
+
+.tourGuideWrap:first-child{
+    margin-bottom: 70px;
+}
+
+.tourGuideItem{
+    width: 410px;
+    /* height: 100%; */
+    height: 450px;
+    float: left;
     position: relative;
-    /* background-color: lightcyan; */
+    background-color: lightcyan;
 }
 
 .tourGuideItemLast{
@@ -709,7 +731,7 @@ h3{
 }
 
 .tourGuideItem .opc2{
-    background-color: rgba(33, 33, 33, 0.9);
+    background-color: rgba(21, 21, 21, 0.9);
     font-weight: 200;
     display: none;
 }
@@ -722,24 +744,22 @@ h3{
     display: none;
 }
 
-.tourBtnWrap{
-    width: 100%;
-    height: 100px;
-    position: relative;
-    /* background-color: lightgreen; */
-}
-
 .tourBtn{
-    width: 200px;
+    width: 180px;
     height: 40px;
     background: #71C0D0;
     font-weight: 300;
     text-align: center;
     line-height: 40px;
     border-radius: 20px;
-    margin: 0 auto;
     transition-duration: 0.2s;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25%;
 }
+
 
  /* .gemleadersBtn{
     width: 200px;
