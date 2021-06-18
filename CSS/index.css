@@ -34,13 +34,13 @@ header{
 }
 
 header ul{
-    width: 660px;
+    width: 665px;
     height: 100%;
     float: left;
     /* margin-left: 470px; */
     margin-left: 27%;
     line-height: 70px;
-    /* background-color: sienna; */
+    background-color: sienna;
 }
 
 header ul li{
@@ -48,7 +48,7 @@ header ul li{
     height: 100%;
     float: left;
     margin-left: 30px;
-    /* background-color: forestgreen; */
+    background-color: forestgreen;
 }
 
 header ul li:first-child{
