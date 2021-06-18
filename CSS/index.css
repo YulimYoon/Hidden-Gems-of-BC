@@ -521,18 +521,17 @@ h3{
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
     /* background-color: darkblue; */
+    background-image: url('../img/Banner_Gemleaders.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 100px;
   }
 
   #gemleadersBanner,#gemleadersBannerText{
       position: absolute;
       top: 0;
       left: 0;
-  }
-
-  #gemleadersBanner{
-      width: 100%;
-      height: auto;
-      margin-bottom: 100px;
   }
 
   #gemleadersBannerText{
@@ -569,6 +568,10 @@ h3{
     object-position: center; /* Center the image within the element */
     /* background-color: darkblue; */
     margin-bottom: 5px;
+    background-image: url('../img/faqbanner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #faqSec2{
@@ -590,10 +593,6 @@ h3{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
-
-/* .active, .question:hover {
-    background-color: yellowgreen; 
-} */
 
 .panel {
     padding: 0 18px;
@@ -617,39 +616,20 @@ h3{
     margin: 80px auto;
 }
 
-
-#faqBanner{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#faqBanner{
-    width: 100%;
-    height: auto;
-}
-
-/* #faqBannerText{
-    width: 40%;
-    height: 60%;
-    margin-top: 150px;
-    margin-left: 90px;
-    background-color: darkcyan;
-    color: white;
-    font-size: 16px;
-} */
-
 #faqBannerTitle{
     font-size: 30px;
     font-weight: 400;
 }
-
 /* FAQ Page End */
 
 /* TourGuide Page Start */
 #tourBanner{
     width: 100%;
-    height: auto;
+    height: 429px;
+    background-image: url('../img/tourguidebanner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #tourGuideSec2{
@@ -770,6 +750,10 @@ input[type=submit]:hover {
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
     /* background-color: darkblue; */
+    background-image: url('../img/Banner_Contact.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #contactBanner{
@@ -814,18 +798,18 @@ input[type=submit]:hover {
 /* Contact Page End */
 
 /* About Page Start */
-.about_banner {
+
+#aboutSec1{
     width: 100%;
-    height: auto;
+    height: 429px;
+    position: relative;
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
     background-color: #f2f7f2;
-}
-
-.about_banner img{
-    width: 100%;
-    height: auto;
-    max-height: 400px; 
+    background-image: url('../img/aboutbanner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #aboutSec2{
@@ -881,20 +865,6 @@ input[type=submit]:hover {
     font-weight: 600;
 }
 
-#aboutSec1{
-    width: 100%;
-    height: 429px;
-    position: relative;
-    object-fit: none; /* Do not scale the image */
-    object-position: center; /* Center the image within the element */
-    background-color: #f2f7f2;
-}
-
-#aboutBanner{
-    width: 100%;
-    height: auto;
-    margin-bottom: 100px;
-}
 
 #aboutBannerText{
     width: 40%;
@@ -919,6 +889,10 @@ input[type=submit]:hover {
     position: relative;
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
+    background-image: url('../img/bookingbanner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     /* background-colo: #D7E2C3; */
 }
 
@@ -928,10 +902,6 @@ input[type=submit]:hover {
     left: 0;
 }
 
-#bookingBanner{
-    width: 100%;
-    height: 450px;
-}
 
 #bookingBannerText{
     width: 70%;
