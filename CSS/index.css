@@ -321,7 +321,7 @@ section{
 
 .sec4Container{
     width: 1300px;
-    height: 100%;
+    /* height: 100%; */
 }
 
 #sec4Title{
@@ -368,6 +368,12 @@ section{
 #igHiddenGems{
     background:linear-gradient(180deg, rgba(255,255,255,0) 73%, #D7E2C3 65%);
     display: inline;
+    font-style: italic;
+}
+
+.twt-p{
+    font-size: 15px;
+    font-weight: 300;
     font-style: italic;
 }
 /* Home Page End */
